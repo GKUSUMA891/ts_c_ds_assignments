@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int i,j,k;
+	int n=5;
+	for(i=0;i<n;i++)
+	{
+		k=i;
+		for(j=0;j<=i;j++)
+		{
+			//k=j;
+			if(j%2!=0)
+			{
+				printf("-%d ",k);
+			}
+			else
+			{
+				printf("%d ",k);
+			}
+		}
+		printf("\n");
+	}
+}
